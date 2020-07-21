@@ -32,6 +32,7 @@ public class MarkUtilTest {
     //cmt @Test phế hàm này thành hàm bt, ko được chạy trong lần Shift F6
     //trò này do thư viện JUnit nó bày ra, bày thêm màu sắc XANH ĐỎ VÀNG
     
+//    @Test(expected = NumberFormatException.class)
     @Test(expected = IllegalArgumentException.class)
     public void testFailCases() {
         //hàm này test những tình huống cà chớn và đưa đầu vào cà cớn
